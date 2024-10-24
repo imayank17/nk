@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Stone Paper Scissor</h1>
+    <div class="container">
+        <div class="choices">
+            <div class=" choice  hide" id="rock"><img src="images/rock.png" alt=""></div>
+            <div class=" choice  hide" id="paper"><img src="images/paper.png" alt=""></div>
+            <div class="choice  hide" id="scissor"><img src="images/scissors.png" alt=""></div>
+            <div class="display-choices">
+                <h2>Moves?</h2>
+                <div class="usertext style"></div>
+                <div class="comptext style"></div>
+              
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div class="user-score">
+                <p id="uscore">0</p>
+                <p>USER</p>
+            </div>
+            <div class="comp-score">
+                <div class="comp-score">
+                    <p id="cscore">0</p>
+                    <p>COMPUTER</p>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <p class="msg">Play your Move</p>
+        </div>
+        <div class="reset-score">
+            <button id="reset-button">Reset Score</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
